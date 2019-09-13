@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js --open",
-    "build": "webpack --config webpack.config.prod.js"
+    "build": "webpack --config webpack.config.prod.js",
+    "lint": "eslint --cache --format codeframe --ext js,jsx src"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
